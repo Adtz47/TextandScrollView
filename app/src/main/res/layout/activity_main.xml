@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/whatsapp_image_2024_08_26_at_20_58_16"
+         />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:text="First of the princesses, Vivi, was raised by her father, King Cobra, and an assorted number of court officials as she was groomed into a successor to the throne. In the process, she is also encouraged to love the people and care about their well-being primarily taking it upon herself to ensure their well-being through any means necessary. Consequently, Vivi became a highly idealistic individual with the well-being of her nation as a powerful motivator. Furthermore, Vivi had become a strong person with a sense of higher purpose and necessity to be an active agent in bringing it into reality since she was taught it is her duty as their monarch. Her time with the Suna Suna gang left her with the impression that she too is one of the people and that she should not delegate.
+
+King Neptune, Queen Otohime, their sons, and an assorted number of court officials, raised Shirahoshi, the second of the princesses. In contrast to Vivi, Shirahoshi was never groomed into being the next ruler as her elder brother had already filled that role. As the youngest child of her parents and as the incarnation of the ancient weapon, Poseidon, Shirahoshi’s entire family had always overly protected her. The already existing over-protectiveness was further aggravated by the assassination of her mother and the attacks by the pirate Decken. As such, Shirahoshi grows up to be an overly emotional, naïve, and sheltered individual, but one with high ideals of how different races are supposed to live due to the principles instilled in her by her late mother early on."
+            android:textSize="20dp" />
+    </ScrollView>
+
+
+</LinearLayout>
